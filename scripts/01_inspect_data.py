@@ -1,7 +1,7 @@
 import pandas as pd
 
 # load data
-DATA_PATH = "./data/raw/la_crime_2020_2024_raw.csv.csv"
+DATA_PATH = "data/raw/la_crime_2020_2024_raw.csv"
 
 df = pd.read_csv(DATA_PATH)
 
